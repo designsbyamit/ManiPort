@@ -99,7 +99,7 @@ export default function Works() {
           className="text-center mt-14"
         >
           <a
-            href="/about"
+            href="/work"
             className="text-sm font-sans text-[var(--muted)] hover:text-accent transition-colors duration-200 tracking-widest uppercase"
           >
             View All Projects →

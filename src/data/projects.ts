@@ -6,6 +6,7 @@ export interface ProcessStep {
 export interface Project {
   id: number
   slug: string
+  type: 'featured' | 'short-story'
   title: string
   shortDescription: string
   role: string
@@ -25,6 +26,7 @@ export const projects: Project[] = [
   {
     id: 1,
     slug: 'brand-identity-redesign',
+    type: 'featured' as const,
     title: 'Brand Identity Redesign',
     shortDescription: 'Refreshing a legacy brand for the modern digital landscape.',
     role: 'Lead UX/UI Designer',
@@ -72,6 +74,7 @@ export const projects: Project[] = [
   {
     id: 2,
     slug: 'mobile-app-ux',
+    type: 'featured' as const,
     title: 'Mobile App UX',
     shortDescription: 'Redesigning a health-tracking app to increase daily active usage.',
     role: 'Senior UX Designer',
@@ -119,6 +122,7 @@ export const projects: Project[] = [
   {
     id: 3,
     slug: 'ecommerce-redesign',
+    type: 'short-story' as const,
     title: 'E-Commerce Redesign',
     shortDescription: 'Overhauling the checkout funnel to reduce cart abandonment by 40%.',
     role: 'UX Lead',
@@ -166,6 +170,7 @@ export const projects: Project[] = [
   {
     id: 4,
     slug: 'dashboard-design',
+    type: 'short-story' as const,
     title: 'Analytics Dashboard',
     shortDescription: 'Designing a complex data product for non-technical users.',
     role: 'Product Designer',
@@ -213,6 +218,7 @@ export const projects: Project[] = [
   {
     id: 5,
     slug: 'design-system',
+    type: 'short-story' as const,
     title: 'Design System',
     shortDescription: 'Building a scalable component library that unified 4 product teams.',
     role: 'Design Systems Lead',
