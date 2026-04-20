@@ -7,7 +7,7 @@ const navLinks = [
   { label: 'Home', href: '/', isAnchor: false },
   { label: 'Work', href: '/work', isAnchor: false },
   { label: 'About', href: '/about', isAnchor: false },
-  { label: 'Contact', href: '#contact', isAnchor: true },
+  { label: 'Contact', href: '/contact', isAnchor: false },
 ]
 
 export default function Navbar() {

@@ -7,6 +7,7 @@ import Home from '@/pages/Home'
 import Work from '@/pages/Work'
 import About from '@/pages/About'
 import ProjectDetail from '@/pages/ProjectDetail'
+import Contact from '@/pages/Contact'
 
 export default function App() {
   const location = useLocation()
@@ -21,6 +22,7 @@ export default function App() {
           <Route path="/work" element={<Work />} />
           <Route path="/about" element={<About />} />
           <Route path="/project/:slug" element={<ProjectDetail />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </AnimatePresence>
       <Footer />
