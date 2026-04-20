@@ -18,8 +18,8 @@ const fadeUp = (delay = 0) => ({
 const contactDetails = [
   {
     label: 'Email',
-    value: 'manisha@example.com',
-    href: 'mailto:manisha@example.com',
+    value: 'dubey12oct@gmail.com',
+    href: 'mailto:dubey12oct@gmail.com',
     icon: (
       <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
         <rect x="2" y="4" width="16" height="12" rx="2" />
@@ -29,8 +29,8 @@ const contactDetails = [
   },
   {
     label: 'LinkedIn',
-    value: 'linkedin.com/in/manishakumari',
-    href: 'https://linkedin.com/in/manishakumari',
+    value: 'linkedin.com/in/manishadesign',
+    href: 'https://linkedin.com/in/manishadesign',
     icon: (
       <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
         <rect x="2" y="2" width="16" height="16" rx="2" />
