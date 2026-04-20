@@ -12,7 +12,7 @@ export default function SectionWrapper({
   fullWidth = false,
 }: SectionWrapperProps) {
   return (
-    <section id={id} className={className}>
+    <section id={id} className={`w-full ${className}`}>
       {fullWidth ? (
         children
       ) : (

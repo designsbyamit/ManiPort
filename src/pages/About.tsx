@@ -85,9 +85,9 @@ export default function About() {
   return (
     <motion.div variants={pageVariants} initial="initial" animate="animate" exit="exit">
       {/* Hero */}
-      <div className="min-h-[55vh] flex items-center pt-24 pb-16 bg-[var(--bg)]">
+      <div className="pt-36 pb-20 bg-[var(--bg)]">
         <SectionWrapper>
-          <div className="max-w-3xl py-8">
+          <div className="max-w-3xl">
             <motion.p {...fadeUp(0)} className="text-accent text-xs tracking-[0.25em] uppercase font-sans mb-4">
               About Me
             </motion.p>
