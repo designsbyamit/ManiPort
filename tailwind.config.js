@@ -5,8 +5,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        accent: '#C9A96E',
-        'accent-light': '#DFC08E',
+        accent: '#C4758A',
+        'accent-light': '#D4909A',
         dark: {
           bg: '#0F0F0F',
           surface: '#1A1A1A',

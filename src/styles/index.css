@@ -9,7 +9,7 @@
   --border: #e0ddd6;
   --text: #1a1a1a;
   --muted: #666666;
-  --accent: #c9a96e;
+  --accent: #c4758a;
 }
 
 .dark {
@@ -71,6 +71,6 @@ body {
 
 /* ─── Selection ───────────────────────────────────────────────────────────── */
 ::selection {
-  background-color: rgba(201, 169, 110, 0.25);
+  background-color: rgba(196, 117, 138, 0.25);
   color: var(--text);
 }
