@@ -97,7 +97,7 @@ export default function About() {
               that feel human.
             </motion.h1>
             <motion.p {...fadeUp(0.2)} className="text-[var(--muted)] text-lg mt-8 leading-relaxed max-w-xl font-sans">
-              I'm Manisha — a UX designer, researcher, and occasional artist based in Germany.
+              I'm Manisha — a UX designer, researcher, and occasional artist based in Bengaluru.
               I'm drawn to the messy, human side of design problems, and I believe the best
               interfaces are the ones you never have to think about.
             </motion.p>
@@ -199,9 +199,9 @@ export default function About() {
               — Manisha
             </motion.p>
             <motion.p {...fadeUp(0.3)} className="text-[var(--muted)] mt-8 leading-relaxed font-sans max-w-lg mx-auto">
-              Outside of work, I'm a mother — and honestly, that has made me a better
-              designer. Parenthood teaches you patience, perspective, and the art of solving
-              problems with incomplete information. Sound familiar?
+              When I'm not designing, I'm sketching, exploring Bengaluru's art scene,
+              or getting lost in a good book — always looking for the next thing that
+              sparks curiosity.
             </motion.p>
           </div>
         </SectionWrapper>

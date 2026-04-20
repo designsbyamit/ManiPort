@@ -36,7 +36,7 @@ export default function AboutPreview() {
           className="text-[var(--muted)] text-lg mt-8 leading-relaxed font-sans"
         >
           I'm Manisha — a UX designer with 5+ years of experience turning complex problems
-          into intuitive, beautiful interfaces. Based in Germany, I work at the intersection
+          into intuitive, beautiful interfaces. Based in Bengaluru, I work at the intersection
           of research, strategy, and craft. My goal is always the same: to make technology
           feel human.
         </motion.p>
